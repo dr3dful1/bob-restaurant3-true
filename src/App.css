@@ -53,12 +53,19 @@
    background-size: cover;
    height: 100px;
    width: 1000px;
-   background-color: red;
+   color: white;
+   font-family: 'rastafari';
+   font-weight:200;
+   text-aling:center;
+   padding-left: 140px;
+   font-size:500%;
+   text-shadow: 2px 2px #00c3ff
+    
  }
 
  .mainCarousel{
    background-position: center;
-  
+    
    background-size: cover;
    height: 600px;
    width: 900px;
@@ -76,8 +83,9 @@
 
  .CarouselDiv{
    height: 500px;
-   width: 680px;
-   box-shadow: 0 0 1px 1px blue;
+   width: 800px;
+  
+   padding-left: 200px;
  }
 
 @font-face{
@@ -86,8 +94,16 @@
    font-style:normal;
    font-weight:100;
 }
+/* @font-face{
+   font-family: 'rastafari';
+   src: url(./fonts/ReggaeBassItalic-LWxD.ttf);
+   font-style:normal;
+   font-weight:100;
+} */
 
 .landingTitle{
    font-family: 'rastafari';
-   font-weight:100;
+   font-weight:200;
+   font-size: Large;
+   font-size:100%
 }

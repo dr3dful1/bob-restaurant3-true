@@ -11,8 +11,10 @@ function MainPageJumbotron(){
         <div className="container">
 
             <div className="jumbotron">
+
                 <div className="titleText">
-                    <p className="landingTitle">dsfredgtrytry</p>
+
+                   Taste of Caribbean
 
                 </div> 
                 
