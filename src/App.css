@@ -1,0 +1,41 @@
+ .jumbotron{
+    background-image: url("/1.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+
+ 
+
+ .mbackground{
+    background-image: url("/treez.jpg");
+    height: 140vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+
+ 
+.legend{
+
+   height: 1vh;
+   
+}
+
+ 
+ .carousels{
+   height:81vh;
+ }
+
+ .footBox{
+   box-shadow: 0 0 10px 10px #555;
+   background-image: url("/sand2.jpg");
+   height: 27vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
