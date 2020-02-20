@@ -3,13 +3,13 @@ import {Link} from 'react-router-dom'
 
 function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light  ">
-  <a className="navbar-brand" href="#">Taste of Carribbean</a>
+        <nav className="navbar navbar-expand-lg navbar-light   navbox ">
+  <a className="navbar-brand navbox" href="#">Taste of Carribbean</a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
 
-  <div className="collapse navbar-collapse" id="navbarSupportedContent">
+  <div className="collapse navbar-collapse navbox" id="navbarSupportedContent ">
     <ul className="navbar-nav mr-auto">
       <li className="nav-item active">
         <Link className="nav-link" href="#" to={{pathname:'/'}}>Home <span class="sr-only">(current)</span></Link>
@@ -36,10 +36,7 @@ function Navbar() {
         <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
       </li> */}
     </ul>
-    <form className="form-inline my-2 my-lg-0">
-      <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-      <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+     
   </div>
 </nav>
     )
