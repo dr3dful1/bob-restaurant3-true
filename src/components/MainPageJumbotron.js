@@ -12,6 +12,7 @@ function MainPageJumbotron(){
 
             <div className="jumbotron">
                 <div className="titleText">
+                    <p className="landingTitle">dsfredgtrytry</p>
 
                 </div> 
                 

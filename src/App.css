@@ -76,6 +76,18 @@
 
  .CarouselDiv{
    height: 500px;
-   width: 720px;
-   box-shadow: 0 0 2px 2px blue;
+   width: 680px;
+   box-shadow: 0 0 1px 1px blue;
  }
+
+@font-face{
+   font-family: 'rastafari';
+   src: url(./fonts/ReggaeBassItalic-LWxD.ttf);
+   font-style:normal;
+   font-weight:100;
+}
+
+.landingTitle{
+   font-family: 'rastafari';
+   font-weight:100;
+}
