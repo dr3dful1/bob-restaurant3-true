@@ -18,7 +18,7 @@ function Navbar() {
         <Link className="nav-link" href="#" to={{pathname:'/Menu'}}> Menu </Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" href="#" to={{pathname:'/History'}}> History </Link>
+        <Link className="nav-link" href="#" to={{pathname:'/History'}}> About Us</Link>
       </li>
 
       {/* <li className="nav-item dropdown">

@@ -60,7 +60,22 @@
    background-position: center;
   
    background-size: cover;
-   height: 400px;
-   width: 1000px;
+   height: 600px;
+   width: 900px;
+    
    background-color:blue;
+ }
+
+ .mainPageCarouselPics{
+   height: 500px;
+   width: 00px;
+   border: 20px solid red;
+   border-radius: 15px;
+    
+ }
+
+ .CarouselDiv{
+   height: 500px;
+   width: 720px;
+   box-shadow: 0 0 2px 2px blue;
  }
