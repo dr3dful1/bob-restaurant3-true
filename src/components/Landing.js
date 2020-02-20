@@ -3,6 +3,9 @@ import Jumbotron from './Jumbotron';
 import Navbar from './Navbar'
 import Footer from './Footer'
 import Sbackground from './Sbackground';
+import MainPageJumbotron from './MainPageJumbotron'
+
+
 function Landing(){
 
     return(
@@ -15,7 +18,7 @@ function Landing(){
                     <div className="container"  >
                     
                     <Navbar />
-                    <Jumbotron />
+                    <MainPageJumbotron />
                    
                     
                     
