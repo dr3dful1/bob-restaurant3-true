@@ -20,9 +20,7 @@ function Footer(){
         <div className="col-md-6 mt-md-0 mt-3">
 
           {/* <!-- Content --> */}
-          <h5 className="text-uppercase">Footer Content</h5>
-          <p>Here you can use rows and columns to organize your footer content.</p>
-
+           
         </div>
         {/* <!-- Grid column --> */}
 
@@ -49,9 +47,7 @@ function Footer(){
     {/* <!-- Footer Links -->
 
   <!-- Copyright --> */}
-    <div className="footer-copyright text-center py-3">© 2020 Copyright:
-      <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
-    </div>
+     
     {/* <!-- Copyright --> */}
 
   </footer>
