@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 import Jumbotron from './Jumbotron'
 import Footer from './Footer'
 import Sbackground from './Sbackground'
+import HistoryTextDetails from './HistoryTextDetails'
 function History(){
 
 
@@ -11,8 +12,8 @@ function History(){
             <div className="mbackground"> 
                 <div className="container">
                     <Navbar />
-                    <Jumbotron />
-                
+                    <HistoryTextDetails />
+                     
                 </div>
             </div>
                 <div className="footBox">

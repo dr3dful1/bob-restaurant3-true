@@ -94,16 +94,74 @@
    font-style:normal;
    font-weight:100;
 }
-/* @font-face{
-   font-family: 'rastafari';
-   src: url(./fonts/ReggaeBassItalic-LWxD.ttf);
+@font-face{
+   font-family: 'rastafari2';
+   src: url(./fonts/Jamaica_Aroma.ttf);
    font-style:normal;
    font-weight:100;
-} */
+}
+.aboutustext{
+   font-family: 'rastafari2';
+   font-weight:200;
+   font-size: Large;
+   font-size:340%;
+   color: white;
+   text-align: center;
+}
+.menuBackground{
+   background-size: cover;
+   background-color: grey;
+   box-shadow: 0 0 10px 10px grey;
+   height: 85vh;
+   opacity: .3;
+   
+ }
+
+ @font-face{
+   font-family: 'TikiBold';
+   src: url(./fonts/TikiBold.ttf);
+   font-style:normal;
+   font-weight:100;
+ }
+ @font-face{
+   font-family: 'TikiOutline';
+   src: url(./fonts/TikiOutline.ttf);
+   font-style:normal;
+   font-weight:100;
+ }
+ @font-face{
+   font-family: 'TikiTropic';
+   src: url(./fonts/TikiTropic.ttf);
+   font-style:normal;
+   font-weight:100;
+ }
+ @font-face{
+  font-family:'Sura';
+  src: url(./fonts/Sura.ttf);
+  font-style:normal;
+  font-weight:100;
+}
+
+
+
+ .menuFont{
+   font-family:'Sura';
+   font-weight:50;
+   font-size: 30px;
+   color: white;
+   text-shadow: 2px 2px #00c3ff;
+
+ }
+ .menuTextContainer{
+   height: 80vh;
+   background-color: teal;
+   background-size: cover;
+   overflow:auto;
+ }
 
 .landingTitle{
    font-family: 'rastafari';
    font-weight:200;
    font-size: Large;
-   font-size:100%
+   font-size:100%;
 }
