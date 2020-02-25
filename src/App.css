@@ -10,7 +10,7 @@
  
 
  .mbackground{
-    background-image: url("/treez.jpg");
+    background-image: url("/palm1.jpg");
     height: 140vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -104,9 +104,10 @@
    font-family: 'rastafari2';
    font-weight:200;
    font-size: Large;
-   font-size:340%;
+   font-size:200%;
    color: white;
    text-align: center;
+   overflow: auto;
 }
 .menuBackground{
    background-size: cover;
@@ -141,22 +142,28 @@
   font-style:normal;
   font-weight:100;
 }
+.navText{
+  font-size: 27px;
+  font-weight: bold;
 
+}
 
 
  .menuFont{
    font-family:'Sura';
    font-weight:50;
    font-size: 30px;
-   color: white;
-   text-shadow: 2px 2px #00c3ff;
+   color: black;
+   text-shadow: 1px 1px grey;
 
  }
  .menuTextContainer{
+   border: 2px solid rgb(177, 172, 172);
    height: 80vh;
-   background-color: teal;
+   background-color: FloralWhite;
    background-size: cover;
    overflow:auto;
+   
  }
 
 .landingTitle{

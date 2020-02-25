@@ -4,21 +4,21 @@ import {Link} from 'react-router-dom'
 function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light   navbox ">
-  <a className="navbar-brand navbox" href="#">Taste of Carribbean</a>
+  <a className="navbar-brand navbox" href="#"> </a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
 
   <div className="collapse navbar-collapse navbox" id="navbarSupportedContent ">
     <ul className="navbar-nav mr-auto">
-      <li className="nav-item active">
-        <Link className="nav-link" href="#" to={{pathname:'/'}}>Home <span class="sr-only">(current)</span></Link>
+      <li className="nav-item">
+        <Link className="nav-link navText" href="#" to={{pathname:'/'}}>Home <span class="sr-only">(current)</span></Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" href="#" to={{pathname:'/Menu'}}> Menu </Link>
+        <Link className="nav-link navText" href="#" to={{pathname:'/Menu'}}> Menu </Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" href="#" to={{pathname:'/History'}}> About Us</Link>
+        <Link className="nav-link navText" href="#" to={{pathname:'/History'}}> About Us</Link>
       </li>
 
       {/* <li className="nav-item dropdown">
