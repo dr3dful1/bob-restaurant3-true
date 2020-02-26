@@ -43,8 +43,9 @@
  .navbox{
 
    background-size: cover;
-   background-color: red;
+   background-color:red ;
    box-shadow: 0 0 10px 10px red;
+ 
  }
 
  .titleText{
@@ -84,7 +85,7 @@
  .CarouselDiv{
    max-height: 1500px;
    width: 55%;
-  
+    
    margin:auto;
  }
 
@@ -143,9 +144,12 @@
   font-weight:100;
 }
 .navText{
-  font-size: 27px;
+  font-size: 170%;
   font-weight: bold;
 
+}
+.navTextDiv{
+  max-height: 400px;
 }
 
 
