@@ -48,17 +48,17 @@
  }
 
  .titleText{
-   background-position: center;
+   
   
    background-size: cover;
-   height: 100px;
-   width: 1000px;
+   max-height: 300px;
+   width: 100%;
    color: white;
    font-family: 'rastafari';
    font-weight:200;
    text-align:center;
-    
-   font-size:500%;
+   margin: auto;
+   font-size:430%;
    text-shadow: 2px 2px #00c3ff
     
  }
