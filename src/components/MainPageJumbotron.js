@@ -8,66 +8,66 @@ function MainPageJumbotron(){
 
 
     return(
-         
+        <div className="container">
 
-            <div className="jumbotron ">
+            <div className="jumbotron">
 
-                <p className="titleText container">
+                <div className="titleText">
 
                    Taste of Caribbean
 
-                </p> 
+                </div> 
                 
-                     
+                    <div className="container">
 
+                     
                         
-                        
-                        <Carousel showThumbs={false} className="bigCarousel" >
-                            <div className="imageDivs" >
+                        <Carousel showThumbs={false} className="CarouselDiv" >
+                            <div  >
                                 <img src="jerkshrimp.jpg" className="mainPageCarouselPics"   />
                                 
                             </div>
-                            <div className="imageDivs">
+                            <div>
                                 <img src="Chef_drops_onions.jpg"  className="mainPageCarouselPics" />
                                 
                             </div>
-                            <div className="imageDivs">
+                            <div>
                                 <img src="oxtails.jpg"  className="mainPageCarouselPics" />
                                 
                             </div>
-                            <div className="imageDivs">
+                            <div>
                                 <img src="lobster_macaroni.jpg"  className="mainPageCarouselPics" />
                                 
                             </div>
-                            <div className="imageDivs">
+                            <div>
                                 <img src="coconut_chicken_curry.jpg"  className="mainPageCarouselPics" />
                                 
                             </div>
-                            <div className="imageDivs">
+                            <div>
                                 <img src="beer_and_mpie.jpg"  className="mainPageCarouselPics" />
                                 
                             </div>
-                            <div className="imageDivs">
+                            <div>
                                 <img src="oxtail_roti.jpg"  className="mainPageCarouselPics" />
                                 
                             </div>
-                            <div className="imageDivs">
+                            <div>
                                 <img src="shrimp_roti.jpg"  className="mainPageCarouselPics" />
                                 
                             </div>
-                            <div className="imageDivs">
+                            <div>
                                 <img src="chef_info.jpg"  className="mainPageCarouselPics" />
                                 
                             </div>
                     
                         </Carousel>
-                      
+                     </div>
                   
                      
                  
         </div>
                           
-     
+    </div>     
          
     )
 }
