@@ -85,7 +85,7 @@
  .CarouselDiv{
    max-height: 1500px;
    width: 55%;
-    
+   box-shadow: 5px 10px #8b4c4c; 
    margin:auto;
  }
 
