@@ -68,23 +68,20 @@
    background-position: center;
     
    background-size: cover;
-   height: 600px;
+    
    width: 900px;
     
    background-color:blue;
  }
 
  .mainPageCarouselPics{
-   height: 500px;
-   width: 00px;
-   border: 20px solid red;
-   border-radius: 15px;
-    
+
+   border-radius: 15px; 
  }
 
  .CarouselDiv{
-   max-height: 1500px;
-   width: 55%;
+    
+   width: 50%;
    box-shadow: 5px 10px #8b4c4c; 
    margin:auto;
  }
