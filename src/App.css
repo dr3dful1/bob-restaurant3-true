@@ -82,10 +82,10 @@
  }
 
  .CarouselDiv{
-   height: 500px;
-   width: 800px;
+   max-height: 1500px;
+   width: 55%;
   
-   padding-left: 200px;
+   margin:auto;
  }
 
 @font-face{
